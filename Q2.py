@@ -1,5 +1,5 @@
 def length_of_string(s):
-    last seen = {}
+    last_seen = {}
     start = best =0
     for i, c in enumerate(s):
         if c in last_seen and last_seen[c] >= start:
